@@ -9,9 +9,7 @@ This project aims to apply advanced machine and deep learning models to time ser
 - [Data](#data)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
+- [Acknowledgements](#acknowledgements)
 
 ## Data
 These datasets are commonly used for benchmarking time series forecasting models in academic research and competitions, covering domains like temperature, electricity, transportation, weather, and health. See the table below for details.
