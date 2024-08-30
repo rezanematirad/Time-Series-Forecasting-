@@ -4,7 +4,6 @@
 
 This project aims to apply advanced machine and deep learning models to time series forecasting. Various learning models including, **LSTM**, **BiLSTM**, **ConvLSTM**, **GRU**, **LightGBM**, **RandomForest**, **ResLSTM**, **RNN**, and **XGBoost** are developed. To have a fair and comprehensive analysis of performance, the models are tested on standard time series data including **Electricity Transformer Temperature (ETT)**, **Electricity load demand**, **Traffic**, **weather**, and **finance** datasets.
 
-
 ## Table of Contents
 - [Project Structure](#project-structure)
 - [Data](#data)
@@ -15,7 +14,7 @@ This project aims to apply advanced machine and deep learning models to time ser
 - [License](#license)
 
 ## Data
-These datasets are commonly used for benchmarking time series forecasting models in academic research and competitions like like temperature, electricity, transportation, weather, and health. See the table below for details.
+These datasets are commonly used for benchmarking time series forecasting models in academic research and competitions, covering domains like temperature, electricity, transportation, weather, and health. See the table below for details.
 
 | Dataset      | Number of columns | Prediction Horizon  | Train/Validation/Test Size | Frequency | Domain       |
 |--------------|-------------------|---------------------|----------------------------|-----------|--------------|
@@ -39,15 +38,20 @@ To set up the environment and install the required packages, follow these steps:
    ```bash
    git clone https://github.com/your-username/time-series-forecasting.git
    cd time-series-forecasting
+   ```
 
 2. **Install Required Packages:**
-It is recommended to create your own virtual environment and install the necessary packages as follows:
 
-```bash
+   It is recommended to create your own virtual environment and install the necessary packages as follows:
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    pip install -r requirements.txt
-
+   ```
 
 ## Usage
+
 To run the models, navigate to the `scripts` folder, pick the intended `.sh` file, and execute it using the following commands:
 
 ```bash
@@ -55,3 +59,4 @@ sh ./scripts/Bilstm.sh
 sh ./scripts/Conv2DLSTM.sh
 sh ./scripts/RandomForest.sh
 sh ./scripts/RNN.sh
+```
