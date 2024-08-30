@@ -44,10 +44,10 @@ To set up the environment and install the required packages, follow these steps:
 It is recommended to create your own virtual environment and install the necessary packages as follows:
 
 ```bash
-pip install -r requirements.txt
+   pip install -r requirements.txt
+
 
 ## Usage
-
 To run the models, navigate to the `scripts` folder, pick the intended `.sh` file, and execute it using the following commands:
 
 ```bash
