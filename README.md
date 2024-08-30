@@ -43,8 +43,6 @@ To set up the environment and install the required packages, follow these steps:
    It is recommended to create your own virtual environment and install the necessary packages in Python 3.10 as follows:
 
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    pip install -r requirements.txt
    ```
 
