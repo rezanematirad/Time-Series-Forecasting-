@@ -40,7 +40,7 @@ To set up the environment and install the required packages, follow these steps:
    git clone https://github.com/your-username/time-series-forecasting.git
    cd time-series-forecasting
 
-2. **Install Packages:**
+2. **Install Required Packages:**
 It is recommended to create your own virtual environment and install the necessary packages as follows:
 
 ```bash
