@@ -28,3 +28,14 @@ These datasets are commonly used for benchmarking time series forecasting models
 | Weather      | 21                | {96, 192, 336, 720} | (36792, 5271, 10540)       | 10 min    | Weather      |
 | ILI          | 7                 | {24, 36, 48, 60}    | (617, 74, 170)             | 1 week    | Illness      |
 
+## Installation
+
+To set up the environment and install the required packages, follow these steps:
+
+1. **Clone the Repository:**
+
+   First, clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/your-username/time-series-forecasting.git
+   cd time-series-forecasting
