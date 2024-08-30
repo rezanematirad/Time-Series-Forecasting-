@@ -40,6 +40,16 @@ To set up the environment and install the required packages, follow these steps:
    git clone https://github.com/your-username/time-series-forecasting.git
    cd time-series-forecasting
 
+## Usage
+
+To run the models, navigate to the `scripts` folder, pick the intended `.sh` file, and execute it using the following commands:
+
+```bash
+sh ./scripts/Bilstm.sh
+sh ./scripts/Conv2DLSTM.sh
+sh ./scripts/RandomForest.sh
+sh ./scripts/RNN.sh
+
 2. **Install Required Packages:**
 It is recommended to create your own virtual environment and install the necessary packages as follows:
 
