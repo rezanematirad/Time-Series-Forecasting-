@@ -40,7 +40,7 @@ To set up the environment and install the required packages, follow these steps:
 
 2. **Install Required Packages:**
 
-   It is recommended to create your own virtual environment and install the necessary packages as follows:
+   It is recommended to create your own virtual environment and install the necessary packages in Python 3.10 as follows:
 
    ```bash
    python -m venv venv
