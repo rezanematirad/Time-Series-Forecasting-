@@ -15,10 +15,15 @@ This project aims to apply advanced machine and deep learning models to time ser
 - [License](#license)
 
 ## Data
-The data for this project is stored in the `data/` directory. This includes raw, processed, and external data files. The datasets used in this project are:
+These datasets are commonly used for benchmarking time series forecasting models in academic research and competitions like like temperature, electricity, transportation, weather, and health. See the table below for details.
 
-- **Electricity Transformer Temperature (ETT):** Data related to transformer temperature.
-- **Electricity Load Demand:** Data on electricity consumption over time.
-- **Traffic:** Data representing traffic flow on road networks.
-- **Weather:** Meteorological data including temperature, humidity, etc.
-- **Finance:** Financial time series data such as stock prices, exchange rates, etc.
+| Dataset      | Dim. | Series Length       | Dataset Size               | Frequency | Domain       |
+|--------------|------|---------------------|----------------------------|-----------|--------------|
+| ETTm1        | 7    | {96, 192, 336, 720} | (34465, 11521, 11521)      | 15 min    | Temperature  |
+| ETTm2        | 7    | {96, 192, 336, 720} | (34465, 11521, 11521)      | 15 min    | Temperature  |
+| ETTh1        | 7    | {96, 192, 336, 720} | (8545, 2881, 2881)         | 1 hour    | Temperature  |
+| ETTh2        | 7    | {96, 192, 336, 720} | (8545, 2881, 2881)         | 1 hour    | Temperature  |
+| Electricity  | 321  | {96, 192, 336, 720} | (18317, 2633, 5261)        | 1 hour    | Electricity  |
+| Traffic      | 862  | {96, 192, 336, 720} | (12185, 1757, 3509)        | 1 hour    | Transportation|
+| Weather      | 21   | {96, 192, 336, 720} | (36792, 5271, 10540)       | 10 min    | Weather      |
+| ILI          | 7    | {24, 36, 48, 60}    | (617, 74, 170)             | 1 week    | Illness      |
