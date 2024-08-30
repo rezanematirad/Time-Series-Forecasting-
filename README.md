@@ -60,3 +60,11 @@ sh ./scripts/Conv2DLSTM.sh
 sh ./scripts/RandomForest.sh
 sh ./scripts/RNN.sh
 ```
+
+## Acknowledgements
+
+This project makes use of code from the following open-source projects:
+
+- **[TimesNet]([https://github.com/thuml/TimesNet](https://github.com/thuml/Time-Series-Library))** - A deep learning model for time series forecasting developed by THUML @ Tsinghua University, used under the MIT License.
+
+We are grateful to the authors for their contributions to the open-source community.
